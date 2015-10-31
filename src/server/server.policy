@@ -1,4 +1,4 @@
 //Fichero server.policy 
-grant codeBase "file:///home/adri/workspace/chatGUI/bin/server/" {
+grant codeBase "file:///<path>/workspace/chatGUI/bin/server/" {
 	permission java.security.AllPermission;
 };
