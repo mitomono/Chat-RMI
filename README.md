@@ -5,6 +5,7 @@ chat basico cliente/servidor RMI con interfaz grafica
 hay que adecuar los ficheros server.policy al la ruta de ejecucion adecuada a cada PC
 
 //Fichero server.policy 
+
 grant codeBase "file:///<path>/chatGUI/bin/server/" {
 	permission java.security.AllPermission;
 };
